@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: aliceblue;
+  margin: 0;
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  max-width: 550px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal h1 {
+  color: #292929;
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+}
+
+.modal {
+  display: none;
+  position: relative;
+  background: #fff;
+  padding: 2em 1em 1em;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 lightgray, 0 6px 20px lightgray;
+}
+
+.modal.show-modal {
+  display: block;
+}
+
+.modal .modal-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #292929;
+  font-size: 0.5em;
+}
+
+.modal .modal-x:hover {
+  font-weight: bold;
+  font-size: 0.6em;
+}
+
+.modal .red {
+  color: rgb(211, 54, 54);
+}
+
+button {
+  background-color: rgb(211, 54, 54);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: "Montserrat";
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
