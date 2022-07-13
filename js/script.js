@@ -4,12 +4,12 @@ var modalX = document.querySelector(".modal-x");
 
 var closeModal = function () {
   modal.classList.remove("show-modal");
-  button.innerText = "Who's Awesome?";
+  button.innerText = "Who's the best mom ever?";
 };
 
 var openModal = function () {
-  modal.classList.add("show-modal");
-  button.innerText = "Who's Awesome?";
+  modal.classList.add("show-modal"); 
+  button.innerText = "YOU'RE THE BEST MOM EVER!"; 
 };
 
 button.addEventListener("click", function () {
